@@ -54,7 +54,6 @@ public class DocumentDiff {
         return results;
     }
 
-
     public static Document makeDocument(String title, String data) {
         Document doc = new Document(title);
         String[] values = data.split("\n");

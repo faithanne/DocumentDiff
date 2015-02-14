@@ -44,12 +44,4 @@ public class Line {
         result = 31 * result + locations.hashCode();
         return result;
     }
-
-    @Override
-    public String toString() {
-        return "Line{" +
-                "value='" + value + '\'' +
-                ", locations=" + locations +
-                '}';
-    }
 }
